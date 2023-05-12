@@ -1,0 +1,39 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #272727;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+@font-face {
+  font-family: SF Pro Display;
+  src: url(./assets/fonts/SF-Pro-Display-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: SF Pro Display;
+  src: url(./assets/fonts/SF-Pro-Display-Regular.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: SF Pro Display;
+  src: url(./assets/fonts/SF-Pro-Display-Light.ttf);
+  font-weight: 400;
+}
+
+body {
+  font-family: "SF Pro Display", sans-serif !important;
+}
+
+button {
+  border-radius: 10px;
+}

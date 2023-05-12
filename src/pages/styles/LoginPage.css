@@ -1,0 +1,83 @@
+.login-container {
+  margin: auto;
+  padding-top: 10vh;
+}
+
+@media screen and (min-width: 600px) {
+  .login-container {
+    max-width: 600px;
+  }
+}
+
+.login-container form {border: 3px solid #FFCE07;}
+
+.login-container input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #FFCE07;
+  box-sizing: border-box;
+}
+
+.login-container button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 250px;
+}
+
+.login-container button[type="submit"] {
+  background-color: #FFCE07;
+  color: #272727;
+  display: block;
+}
+
+@media screen and (max-width: 425px) {
+  .login-container button[type="submit"] {
+    width: 100%;
+  }
+}
+
+.login-container button:hover {
+  opacity: 0.8;
+}
+
+.login-container .cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: red;
+}
+
+.login-container .imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+.login-container img.login {
+  /* width: 40%; */
+  /* border-radius: 50%; */
+}
+
+.login-container .container {
+  padding: 16px;
+}
+
+.login-container span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 425px) {
+  .login-container span.psw {
+     display: block;
+     float: none;
+  }
+  .login-container .cancelbtn {
+     width: 100%;
+  }
+}
