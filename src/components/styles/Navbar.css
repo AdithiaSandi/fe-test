@@ -30,8 +30,10 @@ header .container {
 
   header .container .collapse-btn {
     float: right;
+    margin-top: 15px;
     margin-right: 20px;
-    width: auto;
+    height: 32px;
+    width: 42px;
     border-radius: 10px;
   }
 
