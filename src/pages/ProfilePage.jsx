@@ -1,5 +1,6 @@
 import { useCookies } from "react-cookie";
 import { Navbar } from "../components/Navbar.jsx";
+import "./styles/ProfilePage.css"
 
 export const ProfilePage = () => {
   document.title = "Profile";
@@ -7,7 +8,9 @@ export const ProfilePage = () => {
   return (
     <div>
       <Navbar />
-      Cookies = <span>{cookies.token}</span>
+      <div className="profile-container">
+        Cookies = <span>{cookies.token}</span>
+      </div>
     </div>
   );
 };

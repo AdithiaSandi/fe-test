@@ -26,28 +26,28 @@ export const Navbar = () => {
   return (
     <header>
       <div className={isMobile ? "container " + showNav : "container"}>
-        <a href="/" hidden={!isMobile} className="logo-mobile">
+        <a href="/dashboard" hidden={!isMobile} className="logo-mobile">
           <img src={Logo}></img>
         </a>
         <button hidden={!isMobile} className="collapse-btn">
           <img src={Collapse} className="collapse-icon" onClick={() => toggleNav()}></img>
         </button>
-        <a href="/" hidden={isMobile}>
+        <a href="/dashboard" hidden={isMobile}>
           <img src={Logo}></img>
         </a>
-        <a href="/" className={isMobile ? "mobile" : ""}>
+        <a href="" className={isMobile ? "mobile" : ""}>
           Service
         </a>
-        <a href="/" className={isMobile ? "mobile" : ""}>
+        <a href="" className={isMobile ? "mobile" : ""}>
           About
         </a>
-        <a href="/" className={isMobile ? "mobile" : ""}>
+        <a href="" className={isMobile ? "mobile" : ""}>
           Portofolio
         </a>
-        <a href="/" className={isMobile ? "mobile" : ""}>
+        <a href="" className={isMobile ? "mobile" : ""}>
           Blog
         </a>
-        <a href="/" className={isMobile ? "mobile" : ""}>
+        <a href="" className={isMobile ? "mobile" : ""}>
           Career
         </a>
         <button className={isMobile ? "mobile" : ""}>Contact Us</button>

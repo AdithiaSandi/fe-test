@@ -1,0 +1,10 @@
+.profile-container {
+    padding-top: 80px;
+}
+
+@media screen and (width < 768px) {
+    .profile-container {
+        padding-top: 75px;
+    }
+}
+
