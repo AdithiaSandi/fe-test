@@ -1,0 +1,47 @@
+/****************** SERVICES ******************/
+
+.services-card {
+  border: #c4c4c4 1px solid;
+  padding: 20px;
+  width: 20vw;
+  min-width: 183px;
+  border-radius: 10px;
+  text-align: left;
+  overflow: hidden;
+  margin-bottom: 3vw;
+}
+
+.services-card:hover {
+  border-color: #ffce07;
+}
+
+.services-card img {
+    width: 18.7vw;
+    max-width: 120px;
+    height: 15.5vw;
+    max-height: 105px;
+}
+
+.services-card h4,
+.services-card p {
+    margin: 10px 0;
+}
+
+.services-card h4 a {
+    color: #ffce07;
+    text-decoration: none;
+}
+
+.services-card h4 a span {
+    padding-left: 0;
+    transition: padding-left 0.5s;
+}
+
+.services-card h4 a:hover span {
+    padding-left: 5px;
+    transition: padding-left 0.5s;
+}
+
+.services-card p {
+    font-size: 11px;
+}

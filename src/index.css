@@ -10,6 +10,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -37,7 +39,7 @@ body {
   background: #ffffff;
   background-image: linear-gradient(rgb(0, 0, 0, 2%) 1px, transparent 1px),
     linear-gradient(90deg, rgb(0, 0, 0, 2%) 1px, transparent 1px);
-  background-size: 6vw 6vw;
+  background-size: 50px 50px;
 }
 
 button {

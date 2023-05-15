@@ -1,3 +1,5 @@
+/****************** BANNER ******************/
+
 .banner-container {
   padding-top: 85px;
   position: relative;
@@ -5,52 +7,53 @@
 }
 
 .banner-container .foreground {
-    z-index: 0;
-    padding-top: 10.5%;
-    padding-left: 7vw;
+  z-index: 0;
+  padding-top: 10.5%;
+  padding-left: 7vw;
 }
 
 .banner-container .foreground .top {
-    display: inline-block;
-    width: 34.3vw;
-    font-weight: 700;
-    font-size: 4vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    padding-left: 1vw;
-    background-color: white;
-    border: black 1px solid;
-    text-shadow: black 0px 1px 3px;
+  display: inline-block;
+  width: 34.3vw;
+  font-weight: 700;
+  font-size: 4vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 1vw;
+  background-color: white;
+  border: black 1px solid;
+  text-shadow: black 0px 1px 3px;
 }
 
 .banner-container .foreground .mid {
-    font-size: 4.6vw;
+  font-size: 4.6vw;
 }
 
 .banner-container .foreground .btm {
-    font-size: 1.7vw;
-    display: flex;
-    align-items: center;
-    text-shadow: black 0px 1px 1px;
-    margin-top: 1vw;
+  font-size: 1.7vw;
+  display: flex;
+  align-items: center;
+  text-shadow: black 0px 1px 1px;
+  margin-top: 1vw;
 }
 
 .banner-container .foreground .btm .line {
-    border: #FFCE07 2px solid;
-    width: 6vw;
-    height: 0;
+  border: #ffce07 2px solid;
+  width: 6vw;
+  height: 0;
 }
 
 .banner-container .foreground .book-btn {
-    font-size: 0.9vw;
-    font-weight: 700;
-    font-family: "SF Pro Display", sans-serif;
-    background-color: #FFCE07;
-    border: none;
-    width: 13vw;
-    height: 3vw;
-    border-radius: 30px;
-    margin-top: 2vw;
+  font-size: 0.9vw;
+  font-weight: 700;
+  font-family: "SF Pro Display", sans-serif;
+  background-color: #ffce07;
+  border: none;
+  width: 13vw;
+  height: 3vw;
+  border-radius: 30px;
+  margin-top: 2vw;
+  z-index: 1;
 }
 
 .banner-container .background {
@@ -95,4 +98,74 @@
 .banner-container .background img.banner {
   width: 70vw;
   height: 44vw;
+}
+
+/****************** SERVICES ******************/
+
+.services-container {
+  margin-top: 20vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.services-container .marker {
+  color: #C4C4C4;
+}
+
+.services-container h1 {
+  text-shadow: black 0px 1px 3px;
+}
+
+.services-container .cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 5vw;
+}
+
+.services-container .tools-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.services-container .cards-container,
+.services-container .tools-container {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.services-container .tools-container img {
+  margin: 3vw;
+}
+
+.services-container .highlight-container {
+  background-color: #272727;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.services-container .highlight-container h2 {
+  color: #ffce07;
+  max-width: 682px;
+}
+
+.services-container .highlight-container .highlights {
+  color: #FFFFFF;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.services-container .highlight-container .highlights div span {
+  display: block;
+  font-size: 21px;
+  margin-bottom: 1vw;
+}
+
+.services-container .highlight-container .highlights div span:first-child {
+  font-size: 33px;
+  margin-bottom: 0;
 }

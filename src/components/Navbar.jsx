@@ -35,7 +35,7 @@ export const Navbar = () => {
         <a href="/dashboard" hidden={isMobile}>
           <img src={Logo}></img>
         </a>
-        <a href="" className={isMobile ? "mobile" : ""}>
+        <a href="#service-marker" className={isMobile ? "mobile" : ""}>
           Service
         </a>
         <a href="" className={isMobile ? "mobile" : ""}>
