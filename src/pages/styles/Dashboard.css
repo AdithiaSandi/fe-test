@@ -107,10 +107,16 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 .services-container .marker {
-  color: #C4C4C4;
+  color: #c4c4c4;
 }
 
 .services-container h1 {
@@ -153,7 +159,7 @@
 }
 
 .services-container .highlight-container .highlights {
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   width: 100%;
   justify-content: space-evenly;
