@@ -1,0 +1,14 @@
+.carousel {
+    background-color: white;
+}
+
+.carousel .carousel-inner .carousel-item div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.carousel .carousel-inner .carousel-item div img {
+    max-width: 200px;
+    max-height: 200px;
+}

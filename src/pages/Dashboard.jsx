@@ -1,4 +1,5 @@
 import "./styles/Dashboard.css";
+import { CarouselSection } from "../components/CarouselSection";
 import leftDots from "../assets/images/banner-dotted-left.png";
 import btmDots from "../assets/images/banner-dotted-btm.png";
 import banner from "../assets/images/banner.png";
@@ -10,7 +11,7 @@ import logoDesign from "../assets/images/services-digital-product-design.svg";
 import logoMaintenance from "../assets/images/services-maintenance.svg";
 import logoCMS from "../assets/images/services-cms-dev.svg";
 import logoPayment from "../assets/images/services-payment-gate.svg";
-import dblQt from "../assets/images/double-quote.svg"
+import dblQt from "../assets/images/double-quote.svg";
 
 export const Dashboard = () => {
   document.title = "Dashboard";
@@ -251,6 +252,14 @@ export const Dashboard = () => {
             <img src={dblQt} className="btm" alt="" />
           </div>
         </div>
+      </div>
+
+      <CarouselSection />
+
+      <div className="banner-btm-container">
+        <p>Is software important for your business?</p>
+        <h2>Build it with Albatech</h2>
+        <button className="banner-btm-btn">Consultation Now</button>
       </div>
     </div>
   );

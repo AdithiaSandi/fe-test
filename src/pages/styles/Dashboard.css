@@ -424,3 +424,16 @@
   left: auto;
   right: 5vw;
 }
+
+
+/****************** BOTTOM BANNER ******************/
+
+.banner-btm-container {
+  padding-top: 5vw;
+  background-color: white;
+  text-align: center;
+}
+
+.banner-btm-container button {
+  margin-top: 1vw;
+}
