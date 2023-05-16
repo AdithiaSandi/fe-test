@@ -265,6 +265,13 @@ export const Dashboard = () => {
         </div>
       </div>
 
+      <div className="whatsapp-container">
+        <div className="whatsapp-btn" role="button">
+          <img src="https://cdn.simpleicons.org/whatsapp/white" alt="" />
+        </div>
+        <p>Need Help ?</p>
+      </div>
+
       <footer className="footer-container">
         <div className="footer-content">
           <div className="footer-start">
