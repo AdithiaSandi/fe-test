@@ -230,9 +230,7 @@
   margin-top: 2vw;
 }
 
-
 /****************** TESTIMONIALS ******************/
-
 
 .testi-container {
   position: relative;
@@ -288,21 +286,38 @@
   align-items: center;
 }
 
-.testi-container .comment-container .foreground .comment-big .profile-card .profile-icon {
+.testi-container
+  .comment-container
+  .foreground
+  .comment-big
+  .profile-card
+  .profile-icon {
   height: 3vw;
   width: 3vw;
   background-color: #c4c4c4;
   border-radius: 50px;
-  margin-right: 1rem;
+  margin-right: 1vw;
 }
 
-.testi-container .comment-container .foreground .comment-big .profile-card .profile-name span:last-child {
-  color: #C4C4C4;
+.testi-container
+  .comment-container
+  .foreground
+  .comment-big
+  .profile-card
+  .profile-name
+  span:last-child {
+  color: #c4c4c4;
 }
 
-.testi-container .comment-container .foreground .comment-big .profile-card .profile-name span {
+.testi-container
+  .comment-container
+  .foreground
+  .comment-big
+  .profile-card
+  .profile-name
+  span {
   display: block;
-  font-size: 1rem;
+  font-size: 0.9vw;
 }
 
 .testi-container .comment-container .foreground .comment-big:first-child {
@@ -318,6 +333,53 @@
   max-height: 8.75vw;
   left: 15vw;
   top: 25vw;
+}
+
+.testi-container .comment-container .foreground .comment-small h3 {
+  font-size: 1.5vw;
+}
+
+.testi-container .comment-container .foreground .comment-small p {
+  font-size: 1vw;
+}
+
+.testi-container .comment-container .foreground .comment-small .profile-card {
+  display: flex;
+  align-items: center;
+}
+
+.testi-container
+  .comment-container
+  .foreground
+  .comment-small
+  .profile-card
+  .profile-icon {
+  height: 2vw;
+  width: 2vw;
+  background-color: #c4c4c4;
+  border-radius: 50px;
+  margin-right: 0.5vw;
+}
+
+.testi-container
+  .comment-container
+  .foreground
+  .comment-small
+  .profile-card
+  .profile-name
+  span:last-child {
+  color: #c4c4c4;
+}
+
+.testi-container
+  .comment-container
+  .foreground
+  .comment-small
+  .profile-card
+  .profile-name
+  span {
+  display: block;
+  font-size: 0.7vw;
 }
 
 .testi-container .comment-container .foreground .comment-small:nth-child(3) {
