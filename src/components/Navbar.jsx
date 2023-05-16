@@ -41,7 +41,7 @@ export const Navbar = () => {
         <a href="" className={isMobile ? "mobile" : ""}>
           About
         </a>
-        <a href="" className={isMobile ? "mobile" : ""}>
+        <a href="#porto-marker" className={isMobile ? "mobile" : ""}>
           Portofolio
         </a>
         <a href="" className={isMobile ? "mobile" : ""}>

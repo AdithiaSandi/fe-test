@@ -16,32 +16,99 @@
 }
 
 .services-card img {
-    width: 18.7vw;
-    max-width: 120px;
-    height: 15.5vw;
-    max-height: 105px;
+  width: 18.7vw;
+  max-width: 120px;
+  height: 15.5vw;
+  max-height: 105px;
 }
 
 .services-card h4,
 .services-card p {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .services-card h4 a {
-    color: #ffce07;
-    text-decoration: none;
+  color: #ffce07;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .services-card h4 a span {
-    padding-left: 0;
-    transition: padding-left 0.5s;
+  padding-left: 0;
+  transition: padding-left 0.5s;
 }
 
 .services-card h4 a:hover span {
-    padding-left: 5px;
-    transition: padding-left 0.5s;
+  padding-left: 5px;
+  transition: padding-left 0.5s;
 }
 
 .services-card p {
-    font-size: 11px;
+  font-size: 1rem;
+}
+
+/****************** PORTOFOLIO ******************/
+
+.portos-card {
+  border: #c4c4c4 1px solid;
+  width: 20vw;
+  min-width: 220px;
+  border-radius: 10px;
+  text-align: left;
+  overflow: hidden;
+  margin-bottom: 3vw;
+}
+
+@media screen and (max-width: 620px) {
+    .portos-card {
+        width: 100%;
+    }
+}
+
+.portos-card:hover {
+  border-color: #ffce07;
+}
+
+.portos-card img {
+  width: 100%;
+}
+
+.portos-card span {
+  color: #c4c4c4;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.portos-card span,
+.portos-card h4,
+.portos-card p {
+  margin: 10px 0;
+  padding: 0 20px;
+}
+
+.portos-card h4 a {
+  color: #ffce07;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.portos-card h4 a:hover {
+    color: #e5b906;
+}
+
+.portos-card h4 a span {
+  padding-left: 0;
+  transition: padding-left 0.5s;
+}
+
+.portos-card h4 a:hover span {
+  padding-left: 5px;
+  transition: padding-left 0.5s;
+}
+
+.portos-card p {
+  font-size: 1rem;
+  padding-bottom: 20px;
 }

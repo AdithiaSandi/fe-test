@@ -161,6 +161,7 @@
 .services-container .highlight-container .highlights {
   color: #ffffff;
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   justify-content: space-evenly;
 }
@@ -174,4 +175,190 @@
 .services-container .highlight-container .highlights div span:first-child {
   font-size: 33px;
   margin-bottom: 0;
+}
+
+/****************** PORTOFOLIO ******************/
+
+.porto-container {
+  padding-top: 10vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background-color: white;
+}
+
+.porto-container h1 {
+  padding: 0 25vw;
+}
+
+.porto-container .marker {
+  color: #c4c4c4;
+}
+
+.porto-container h1 {
+  color: #272727;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 43px;
+}
+
+.porto-container .cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 5vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.porto-container .porto-btn {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "SF Pro Display", sans-serif;
+  background-color: #ffce07;
+  border: none;
+  height: 57px;
+  width: 188px;
+  border-radius: 30px;
+  margin-top: 2vw;
+}
+
+
+/****************** TESTIMONIALS ******************/
+
+
+.testi-container {
+  position: relative;
+  padding-top: 10vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background-color: white;
+  z-index: -1;
+}
+
+.testi-container .marker {
+  color: #c4c4c4;
+}
+
+.testi-container h1 {
+  padding: 0 30vw;
+}
+
+.testi-container .comment-container {
+  height: 43vw;
+}
+
+.testi-container .comment-container .foreground {
+  position: relative;
+  height: inherit;
+  z-index: 0;
+  text-align: left;
+}
+
+.testi-container .comment-container .foreground .comment-big {
+  position: absolute;
+  max-width: 33vw;
+  max-height: 13vw;
+  right: 5vw;
+  bottom: 5vw;
+  font-size: 1.3vw;
+}
+
+.testi-container .comment-container .foreground .comment-big h3 {
+  font-size: 2.8vw;
+  margin-bottom: 0;
+}
+
+.testi-container .comment-container .foreground .comment-big .profile-card {
+  display: flex;
+  align-items: center;
+}
+
+.testi-container .comment-container .foreground .comment-big .profile-card .profile-icon {
+  height: 3vw;
+  width: 3vw;
+  background-color: #c4c4c4;
+  border-radius: 50px;
+  margin-right: 1rem;
+}
+
+.testi-container .comment-container .foreground .comment-big .profile-card .profile-name span:last-child {
+  color: #C4C4C4;
+}
+
+.testi-container .comment-container .foreground .comment-big .profile-card .profile-name span {
+  display: block;
+  font-size: 1rem;
+}
+
+.testi-container .comment-container .foreground .comment-big:first-child {
+  right: auto;
+  left: 15vw;
+  top: 4vw;
+}
+
+.testi-container .comment-container .foreground .comment-small {
+  position: absolute;
+  bottom: 0;
+  max-width: 23vw;
+  max-height: 8.75vw;
+  left: 15vw;
+  top: 25vw;
+}
+
+.testi-container .comment-container .foreground .comment-small:nth-child(3) {
+  left: 35vw;
+  top: 30vw;
+}
+
+.testi-container .comment-container .foreground .comment-small:nth-child(4) {
+  top: 10vw;
+  left: auto;
+  right: 15vw;
+}
+
+.testi-container .comment-container .background {
+  position: relative;
+  z-index: -1;
+}
+
+.testi-container .comment-container .background img {
+  position: absolute;
+  left: 0;
+  top: -15vw;
+}
+
+.testi-container .comment-container .background img:first-child {
+  left: auto;
+  top: -35vw;
+}
+
+.testi-container .comment-container .background img.grayed {
+  filter: grayscale(1);
+  top: -5.7vw;
+}
+
+.testi-container .comment-container .background img.top {
+  rotate: 180deg;
+  top: -48vw;
+  left: 5vw;
+}
+
+.testi-container .comment-container .background img.btm {
+  left: auto;
+  right: 5vw;
 }
