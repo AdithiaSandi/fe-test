@@ -11,14 +11,14 @@ header .container {
   z-index: 1;
 }
 
-@media screen and (width < 768px) {
+@media screen and (width <= 768px) {
   header .container {
     width: 100%;
     display: block;
   }
 
   header .container.false {
-    max-height: 57px;
+    max-height: 80px;
     overflow: hidden;
     transition: max-height 0.5s ease-in-out;
   }

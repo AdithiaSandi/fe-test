@@ -1,5 +1,6 @@
 .carousel {
     background-color: white;
+    padding-bottom: 5vw;
 }
 
 .carousel .carousel-inner .carousel-item div {

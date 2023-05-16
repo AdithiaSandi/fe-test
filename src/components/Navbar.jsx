@@ -5,7 +5,7 @@ import "./styles/Navbar.css";
 
 export const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
   const toggleNav = () => {
     setShowNav((prev) => {
@@ -14,7 +14,7 @@ export const Navbar = () => {
   };
 
   const resizeResponse = () => {
-    if (window.innerWidth >= 768) {
+    if (window.innerWidth > 768) {
       setIsMobile(false);
       setShowNav(false);
     } else {

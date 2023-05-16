@@ -12,6 +12,7 @@ import logoMaintenance from "../assets/images/services-maintenance.svg";
 import logoCMS from "../assets/images/services-cms-dev.svg";
 import logoPayment from "../assets/images/services-payment-gate.svg";
 import dblQt from "../assets/images/double-quote.svg";
+import logoAlba from "../assets/images/alba-logo.png";
 
 export const Dashboard = () => {
   document.title = "Dashboard";
@@ -97,7 +98,7 @@ export const Dashboard = () => {
           <div className="top">Build or scale up</div>
           <div className="mid">your development team</div>
           <div className="btm">
-            <div className="line"></div>&nbsp;&nbsp;&nbsp;&nbsp;
+            <div className="line"></div>
             <span>in weeks, not months</span>
           </div>
           <button className="book-btn" onClick={() => alert("clicked")}>
@@ -257,10 +258,56 @@ export const Dashboard = () => {
       <CarouselSection />
 
       <div className="banner-btm-container">
-        <p>Is software important for your business?</p>
-        <h2>Build it with Albatech</h2>
-        <button className="banner-btm-btn">Consultation Now</button>
+        <div>
+          <p>Is software important for your business?</p>
+          <h2>Build it with Albatech</h2>
+          <button className="banner-btm-btn">Consultation Now</button>
+        </div>
       </div>
+
+      <footer className="footer-container">
+        <div className="footer-content">
+          <div className="footer-start">
+            <img src={logoAlba} alt="" />
+            <p>
+              Albatech acts as a corporate partner to help digitize their
+              business to accelerate trends in remote work.
+            </p>
+            <div className="socials">
+              <img src="https://cdn.simpleicons.org/facebook/gray" alt="" />
+              <img src="https://cdn.simpleicons.org/instagram/gray" alt="" />
+              <img src="https://cdn.simpleicons.org/linkedin/gray" alt="" />
+            </div>
+          </div>
+          <div className="footer-center">
+            <h4>Website</h4>
+            <p>About</p>
+            <p>Service</p>
+            <p>Portofolio</p>
+            <p>Blog</p>
+            <p>Career</p>
+          </div>
+          <div className="footer-end">
+            <h4>Contact</h4>
+            <p>
+              The Prominence Blok 38D No.25 Jl. Jalur Sutera Barat, Alam Sutera,
+              Kota Tangerang, Banten 15143
+            </p>
+            <p>
+              <span>P:</span>+62 81 1889 3383
+            </p>
+            <p>
+              <span>E:</span>info@albatech.id
+            </p>
+          </div>
+        </div>
+        <div className="footer-footer">
+          <div className="start">
+            ©PT. Alba Digital Teknologi 2021 | All Rights Reserved
+          </div>
+          <div className="end">Privacy policy | Terms of service</div>
+        </div>
+      </footer>
     </div>
   );
 };
