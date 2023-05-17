@@ -1,10 +1,104 @@
-.profile-container {
-    padding-top: 80px;
+.profile-container .detail-container {
+  padding-top: 80px;
+  padding-bottom: 5rem;
+  margin: 0 20vw;
+  background-color: white;
+  border: rgba(226, 205, 122, 25%) 5px solid;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-@media screen and (width < 768px) {
-    .profile-container {
-        padding-top: 75px;
+.profile-container .detail-container .detail-content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-width: 210px;
+    padding-top: 2.5rem;
+    padding-left: 1rem;
+}
+
+.profile-container .detail-container .detail-content img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: #ffce07 2px solid;
+}
+
+.profile-container .detail-container .detail-content div input {
+    border: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0 0 0 0.5rem ;
+    background-color: transparent;
+}
+
+.profile-container .detail-container .detail-content div img:first-child {
+    width: 40px;
+    height: 40px;
+    border-radius: 0;
+    border: none;
+    opacity: 1;
+} 
+
+.profile-container .detail-container .detail-content div img {
+    width: 25px;
+    height: 25px;
+    border-radius: 0;
+    border: none;
+    opacity: 0.5;
+}
+
+.profile-container .division-container {
+    text-align: center;
+    max-width: 64%;
+    padding-top: 2rem;
+}
+
+@media screen and (width <= 1173px) {
+    .profile-container .detail-container {
+        justify-content: center;
+    }
+
+    .profile-container .detail-container .detail-content {
+        padding-left: 0;
+    }
+
+    .profile-container .detail-container .division-container {
+        max-width: 100%;
     }
 }
 
+.profile-container .division-container .division-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profile-container .division-container .division-items .services-card {
+    border: transparent 1px solid;
+    max-width: 20%;
+    margin: 1rem;
+}
+
+.profile-container .division-container .division-items .services-card:hover {
+    border: #ffce07 1px solid;
+}
+
+.profile-container .division-container .division-items .services-card p {
+    display: none;
+}
+
+@media screen and (width <= 768px) {
+  .profile-container .detail-container {
+    margin: 0 15vw;
+  }
+}
+
+@media screen and (width <= 425px) {
+  .profile-container .detail-container {
+    margin: 0 10vw;
+  }
+}
