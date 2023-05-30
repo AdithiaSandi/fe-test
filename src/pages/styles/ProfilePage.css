@@ -81,6 +81,8 @@
     border: transparent 1px solid;
     max-width: 20%;
     margin: 1rem;
+    justify-content: center;
+    text-align: center;
 }
 
 .profile-container .division-container .division-items .services-card:hover {
